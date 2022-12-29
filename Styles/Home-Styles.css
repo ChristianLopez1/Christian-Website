@@ -9,6 +9,19 @@
   padding:10px;
   text-align: center;
   font-weight: bold;
+	right: 47%;
+}
+
+.settings{
+	right:0;
+	top:0;
+	display: inline;
+	position: absolute;
+	background-color: blue;
+}
+
+.settings img{
+	width: 50px;
 }
 
 .left-sidebar{
@@ -54,17 +67,27 @@
 }
 
 .potrait{
-	/*background-color: blueviolet;*/
+	display: inline;
+	position: absolute;
+	/*margin-left: 47%;*/
+	left: 47%;
+	/*background-color: blueviolet; */
+	margin-bottom: 4px;
 }
 .potrait img{
-	display: block;
-	position: absolute;
-	margin-left: 47%;
 	height:125px;
 	/*width: 200px;*/
-	margin-bottom: 4px;
 	border-radius: 50%;
 	border: 6px solid rgb(1, 0, 8);	
+}
+
+.my-info-grid{
+	display:grid;
+	margin-left: 350px;
+	margin-top: 150px;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 16px;
+	row-gap: 200px;
 }
 
 body{
