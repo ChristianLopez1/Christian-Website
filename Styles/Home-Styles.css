@@ -13,11 +13,11 @@
 }
 
 .settings{
-	right:0;
-	top:0;
+	right:10px;
+	top:10px;
 	display: inline;
 	position: absolute;
-	background-color: blue;
+	/*background-color: blue;*/
 }
 
 .settings img{
@@ -82,11 +82,15 @@
 }
 
 .my-info-grid{
+	left: 40%;
+	top:250px;
+	display: inline;
+	position: absolute;
 	display:grid;
-	margin-left: 350px;
-	margin-top: 150px;
+	/*margin-left: 350px;
+	margin-top: 150px;*/
 	grid-template-columns: 1fr 1fr 1fr;
-	column-gap: 16px;
+	column-gap: 40px;
 	row-gap: 200px;
 }
 
