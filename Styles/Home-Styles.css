@@ -48,11 +48,24 @@
 	display:block;
 }
 
-a:link,a:visited{
+.left-sidebar a:link,a:visited{
 	text-decoration: none; /*No purple text to links already visited*/
 	color:black;
 }
 
+.potrait{
+	/*background-color: blueviolet;*/
+}
+.potrait img{
+	display: block;
+	position: absolute;
+	margin-left: 47%;
+	height:125px;
+	/*width: 200px;*/
+	margin-bottom: 4px;
+	border-radius: 50%;
+	border: 6px solid rgb(1, 0, 8);	
+}
 
 body{
   height:1000px; /*Add space to page */
