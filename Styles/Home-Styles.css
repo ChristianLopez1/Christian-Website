@@ -19,10 +19,36 @@
 	position: absolute;
 	/*background-color: blue;*/
 }
+.settings:hover{
+	cursor: pointer;
+}
 
 .settings img{
 	width: 50px;
 }
+
+.settings .tooltip{
+	position: absolute;
+  background-color: black;
+  color: whitesmoke;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 16px;
+  bottom: -25px;
+	left: -75px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none; /*When mouse hovers over tooltip, nothing happens. So it doesn't stay on screen */
+  white-space: nowrap;
+}
+
+.settings:hover .tooltip{
+	opacity: 1;
+}
+
 
 .left-sidebar{
   position: fixed;
