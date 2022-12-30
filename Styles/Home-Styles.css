@@ -7,9 +7,11 @@
 	/*background-color: pink;*/
   font-size: 36px;
   padding:10px;
-  text-align: center;
+  /*text-align: center;*/
   font-weight: bold;
-	right: 47%;
+	left: 650px;
+	display: inline;
+	position: absolute;
 }
 
 .settings{
@@ -97,7 +99,8 @@
 	display: inline;
 	position: absolute;
 	/*margin-left: 47%;*/
-	left: 47%;
+	top: 65px;
+	left: 725px;
 	/*background-color: blueviolet; */
 	margin-bottom: 4px;
 }
@@ -106,6 +109,18 @@
 	/*width: 200px;*/
 	border-radius: 50%;
 	border: 6px solid rgb(1, 0, 8);	
+}
+
+@media(max-width:1162px){
+	.potrait{
+		top: 15%;
+	}
+}
+
+@media(max-height: 550px){
+	.potrait{
+		top:10%;
+	}
 }
 
 .my-info-grid{
@@ -125,4 +140,3 @@ body{
   height:1000px; /*Add space to page */
 	background-color: rgb(245, 245, 240);
 }
-
