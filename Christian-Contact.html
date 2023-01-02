@@ -12,32 +12,49 @@
 
 	<body>
 		<div class="website-title">Christian Lopez</div> 
-		<input type="checkbox" id="darkmode-toggle"/>
-		<label for="darkmode-toggle"></label>
-		<div class="background"></div>
 
+		<div class="at">info&#x40;google.com</div>
+
+		<style>
+			.at {
+  			color: blue;
+  			cursor: pointer;
+			}
+			.at:hover {
+  				color: red;
+			}
+		</style>
+
+	<script>
+		const el33 = document.querySelector(".at");
+		el33.onclick = function () {
+  		let recipient="info";
+  		let at = String.fromCharCode(64);
+  		let dotcom="google.com";
+  		let mail="mailto:";
+  		window.open(mail+recipient+at+dotcom);
+		}
+	</script>
 		
 
-
-
-			<div class="left-sidebar">
-				<div class = "side-icon">
-					<a class href="Christian-Home.html"> <img src="Images/Home-button.png"></a>
-					<a class href="Christian-Home.html">	Home</a>				
-				</div>
-				<div class = "side-icon">
-					<a class href="Christian-Blog.html"> <img src="Images/Blog-button.png"></a>
-					<a class href="Christian-Blog.html">	Blog Posts</a>
-				</div>
-				<div class = "side-icon">
-					<a class href="Christian-Random.html"> <img src="Images/Random-button.png"></a>
-					<a class href="Christian-Random.html">Random</a>
-				</div>
-				<div class = "side-icon">
-					<a class href="Christian-Contact.html"> <img src="Images/Contact-button.png"></a>
-					<a class href="Christian-Contact.html">Contact Me</a>
-				</div>
+		<div class="left-sidebar">
+			<div class = "side-icon">
+				<a class href="Christian-Home.html"> <img src="Images/Home-button.png"></a>
+				<a class href="Christian-Home.html">	Home</a>				
 			</div>
+			<div class = "side-icon">
+				<a class href="Christian-Blog.html"> <img src="Images/Blog-button.png"></a>
+				<a class href="Christian-Blog.html">	Blog Posts</a>
+			</div>
+			<div class = "side-icon">
+				<a class href="Christian-Random.html"> <img src="Images/Random-button.png"></a>
+				<a class href="Christian-Random.html">Random</a>				
+			</div>
+			<div class = "side-icon">
+				<a class href="Christian-Contact.html"> <img src="Images/Contact-button.png"></a>
+				<a class href="Christian-Contact.html">Contact Me</a>
+			</div>
+		</div>
 
 		
 		
